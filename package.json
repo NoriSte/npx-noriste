@@ -7,9 +7,6 @@
   "repository": "https://github.com/NoriSte/npx-noriste",
   "keywords": [],
   "main": "src/",
-  "engines": {
-    "node": ">=8"
-  },
   "files": [
     "src/*.js",
     "!src/*-spec.js"
