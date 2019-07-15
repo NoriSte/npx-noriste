@@ -1,9 +1,9 @@
-# npx-noriste
+# noriste
 
 \$ npx noriste # to see my info 😊
 
-[![Build Status](https://travis-ci.com/NoriSte/npx-noriste.svg?branch=master)](https://travis-ci.com/NoriSte/npx-noriste)
-[![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/npx-noriste)
+[![Build Status](https://travis-ci.com/NoriSte/noriste.svg?branch=master)](https://travis-ci.com/NoriSte/noriste)
+[![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/noriste)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Open Source
@@ -40,7 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://twitter.com/NoriSte"><img src="https://avatars0.githubusercontent.com/u/173663?v=4" width="100px;" alt="Stefano Magni"/><br /><sub><b>Stefano Magni</b></sub></a><br /><a href="https://github.com/NoriSte/npx-noriste/commits?author=NoriSte" title="Code">💻</a> <a href="https://github.com/NoriSte/npx-noriste/commits?author=NoriSte" title="Documentation">📖</a></td></tr></table>
+<table><tr><td align="center"><a href="https://twitter.com/NoriSte"><img src="https://avatars0.githubusercontent.com/u/173663?v=4" width="100px;" alt="Stefano Magni"/><br /><sub><b>Stefano Magni</b></sub></a><br /><a href="https://github.com/NoriSte/noriste/commits?author=NoriSte" title="Code">💻</a> <a href="https://github.com/NoriSte/noriste/commits?author=NoriSte" title="Documentation">📖</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
