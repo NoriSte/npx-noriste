@@ -1,0 +1,32 @@
+{
+  "name": "npx-noriste",
+  "version": "1.0.0",
+  "description": "$ npx bahmutov # to see my info",
+  "author": "NoriSte &lt;nori.ste.magni@gmail.com&gt;",
+  "license": "MIT",
+  "repository": "https://github.com/NoriSte/npx-noriste",
+  "keywords": [],
+  "main": "src/",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "src/*.js",
+    "!src/*-spec.js"
+  ],
+  "bin": {
+    "noriste": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet??\"",
+    "commit": "npx git-cz",
+    "start": "nodemon src/"
+  },
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

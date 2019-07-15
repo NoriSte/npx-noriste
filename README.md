@@ -1,1 +1,1 @@
-# noriste
+# npx-noriste
