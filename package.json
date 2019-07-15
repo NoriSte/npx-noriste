@@ -15,7 +15,8 @@
     "noriste": "./src/index.js"
   },
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "commit": "npx git-cz",
     "start": "nodemon src/"
   },
