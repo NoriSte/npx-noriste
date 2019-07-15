@@ -1,19 +1,10 @@
 "use strict";
 
-const CaptureStdout = require("../vendor/capture-stdout");
-const links = require("./links");
+const { execSync } = require("child_process");
 
 describe("npx noriste", () => {
-  test("Should contain all the social links", async () => {
-    const captureStdout = new CaptureStdout();
-    captureStdout.startCapture();
-
-    require("./index");
-
-    captureStdout.stopCapture();
-    const output = captureStdout.getCapturedText().join(",");
-    captureStdout.clearCaptureText();
-
-    links.forEach(([key, link]) => expect(output).toEqual(expect.stringContaining(link)));
+  test("Should print all the info", async () => {
+    var output = execSync("node ./src/index.js");
+    expect(output.toString()).toMatchSnapshot();
   });
 });
