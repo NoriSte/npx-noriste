@@ -3,23 +3,22 @@
 const boxen = require("boxen");
 const { bold } = require("chalk").default;
 const chalk = require("chalk");
+const links = require("./links");
 
 const color = "#f36";
 const chain = chalk.hex(color);
+
+const highestLength = links
+  .map(link => link[0])
+  .reduce((acc, key) => (key.length > acc ? key.length : acc), 0);
 
 const lines = [
   chain.bold("Stefano Magni (NoriSte)"),
   "Passionate, positive-minded Front-end developer.",
   "JavaScript and testing lover.",
   "",
-  bold("      Twitter: ") + chain("https://twitter.com/NoriSte"),
-  bold("     LinkedIn: ") + chain("https://www.linkedin.com/in/noriste/"),
-  bold("StackOverflow: ") + chain("https://stackoverflow.com/users/700707/noriste"),
-  bold("   Slides.com: ") + chain("https://slides.com/noriste"),
-  bold("       Resume: ") + chain("https://www.visualcv.com/stefano-magni/"),
-  bold("          NPM: ") + chain("https://www.npmjs.com/settings/noriste/packages")
+  ...links.map(([key, link]) => bold(` ${key.padStart(highestLength, " ")}: `) + chain(link))
 ];
-console.log(lines);
 const message = lines.join("\n");
 
 const box = boxen(message, {
