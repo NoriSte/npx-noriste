@@ -1,7 +1,7 @@
 {
   "name": "noriste",
   "version": "1.0.0",
-  "description": "$ npx bahmutov # to see my info",
+  "description": "$ npx noriste # to see my info",
   "author": "NoriSte &lt;nori.ste.magni@gmail.com&gt;",
   "license": "MIT",
   "repository": "https://github.com/NoriSte/noriste",
