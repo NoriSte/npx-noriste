@@ -15,6 +15,7 @@ const lines = [
   bold("      Twitter: ") + chain("https://twitter.com/NoriSte"),
   bold("     LinkedIn: ") + chain("https://www.linkedin.com/in/noriste/"),
   bold("       GitHub: ") + chain("https://github.com/NoriSte"),
+  bold("       Medium: ") + chain("https://medium.com/@NoriSte"),
   bold("StackOverflow: ") + chain("https://stackoverflow.com/users/700707/noriste"),
   bold("   Slides.com: ") + chain("https://slides.com/noriste"),
   bold("       Resume: ") + chain("https://www.visualcv.com/stefano-magni/"),
