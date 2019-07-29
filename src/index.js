@@ -19,7 +19,8 @@ const lines = [
   bold("StackOverflow: ") + chain("https://stackoverflow.com/users/700707/noriste"),
   bold("   Slides.com: ") + chain("https://slides.com/noriste"),
   bold("       Resume: ") + chain("https://www.visualcv.com/stefano-magni/"),
-  bold("          NPM: ") + chain("https://www.npmjs.com/settings/noriste/packages")
+  bold("          NPM: ") + chain("https://www.npmjs.com/settings/noriste/packages"),
+  bold("       Dev.to: ") + chain("https://dev.to/noriste")
 ];
 const message = lines.join("\n");
 
