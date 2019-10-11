@@ -19,8 +19,7 @@ const lines = [
   bold("       Medium: ") + chain("https://medium.com/@NoriSte"),
   bold("          NPM: ") + chain("https://www.npmjs.com/settings/noriste/packages"),
   bold("StackOverflow: ") + chain("https://stackoverflow.com/users/700707/noriste"),
-  bold("   Slides.com: ") + chain("https://slides.com/noriste"),
-  bold("       Resume: ") + chain("https://www.visualcv.com/stefano-magni/")
+  bold("   Slides.com: ") + chain("https://slides.com/noriste")
 ];
 const message = lines.join("\n");
 

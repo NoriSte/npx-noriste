@@ -32,7 +32,6 @@ npx noriste
    │             NPM: https://www.npmjs.com/settings/noriste/packages   │
    │   StackOverflow: https://stackoverflow.com/users/700707/noriste    │
    │      Slides.com: https://slides.com/noriste                        │
-   │          Resume: https://www.visualcv.com/stefano-magni/           │
    │                                                                    │
    ╰────────────────────────────────────────────────────────────────────╯
 ```
