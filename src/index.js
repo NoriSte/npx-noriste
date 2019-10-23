@@ -10,7 +10,7 @@ const chain = chalk.hex(color);
 const lines = [
   chain.bold("Stefano Magni (NoriSte)"),
   "Passionate, positive-minded Front-end developer.",
-  "JavaScript and testing lover.",
+  "JavaScript, testing, and teaching lover.",
   "",
   bold("      Twitter: ") + chain("https://twitter.com/NoriSte"),
   bold("     LinkedIn: ") + chain("https://www.linkedin.com/in/noriste/"),
