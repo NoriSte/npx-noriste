@@ -21,7 +21,7 @@
     "start": "nodemon src/"
   },
   "dependencies": {
-    "boxen": "^2.1.0",
+    "boxen": "^5.0.0",
     "chalk": "^2.4.1"
   },
   "devDependencies": {
